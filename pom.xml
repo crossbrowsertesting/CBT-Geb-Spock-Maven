@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0                       http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.gebish.example</groupId>
-  <artifactId>geb-maven-example</artifactId>
+  <groupId>org.cbt.example</groupId>
+  <artifactId>cbt-geb-maven-example</artifactId>
   <packaging>jar</packaging>
   <version>1</version>
-  <name>Geb Maven Example</name>
-  <url>http://gebish.org</url>
+  <name>CBT Geb Maven Example</name>
+  <url>http://www.crossbrowsertesting.com</url>
   <properties>
     <gebVersion>3.2</gebVersion>
     <seleniumVersion>3.14.0</seleniumVersion>

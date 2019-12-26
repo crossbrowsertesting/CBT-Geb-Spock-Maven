@@ -17,22 +17,22 @@ class CBTSeleniumPage extends Page {
 
 
 
-
+    def testScore="fail";
 
 
     void setScore(RemoteWebDriver driver, String score){
 
 
-
+        //Be sure to use the %40 instead of the @ symbol
         def  response = Unirest.put("http://crossbrowsertesting.com/api/v3/selenium/" +  driver.getSessionId().toString())
-                .basicAuth(username, password)
+                .basicAuth("username", "authkey")
 
                 .field("action","set_score")
                 .field("score", score)
                 .asJson();
 
 
-
+        testScore = score;
     }
 
     void quit()
